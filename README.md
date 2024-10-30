@@ -38,3 +38,20 @@ You can install the required packages by running:
 
 ```bash
 pip install opencv-python-headless face_recognition pillow numpy
+
+face_recognition_system/
+│
+├── main.py                  # Main application file (Tkinter GUI)
+├── test.py                  # Anti-spoofing test script
+├── util.py                  # Utility functions for GUI elements
+├── src/
+│   ├── anti_spoof_predict.py     # Anti-spoofing model class
+│   ├── generate_patches.py       # Image processing and cropping
+│   └── utility.py                # Model parsing and utilities
+├── db/                     # User face encoding database
+├── resources/
+│   └── anti_spoof_models/       # Folder for anti-spoofing models
+└── README.md               # Project README file
+bash```
+
+
